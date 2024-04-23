@@ -1,3 +1,5 @@
+import os
+
 def hello():
     # print("Hello, World!")
     message = os.environ.get("A_VARIABLE", "World")
