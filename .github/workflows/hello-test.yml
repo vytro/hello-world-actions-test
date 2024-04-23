@@ -27,3 +27,4 @@ jobs:
         run: python hello-test.py
         env:
           A_VARIABLE: ${{ secrets.A_VARIABLE }}
+          B_VARIABLE: ${{ vars.B_VARIABLE }}
