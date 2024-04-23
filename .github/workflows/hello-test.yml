@@ -25,5 +25,3 @@ jobs:
 
       - name: Run Python script
         run: python hello.py
-        env:
-          A_VARIABLE: ${{ secrets.A_VARIABLE }}
